@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Murellans</name>
+  <author>Neava</author>
+  <url></url>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>HumanoidAlienRaces</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+
+  <packageId>Neava.Murellans.Race</packageId>
+  <modVersion IgnoreIfNoMatchingField="True">1.0.0</modVersion>
+  <description></description>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+</ModMetaData>
