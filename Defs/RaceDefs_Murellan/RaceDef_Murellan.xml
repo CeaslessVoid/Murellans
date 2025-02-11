@@ -65,13 +65,342 @@
                     <atlasScale>4</atlasScale>
 					<borderScale>1</borderScale>
 
-                    <headTypes Inherit="False">
-                        
-                    </headTypes>
+                    <headTypes>
+						<li>Female_AverageNormal</li>
+						<li>Female_AverageWide</li>
+						<li>Female_AveragePointy</li>
+						<li>Male_AverageNormal</li>
+						<li>Male_AverageWide</li>
+						<li>Male_AveragePointy</li>
+					</headTypes>
+                    
+                    <customDrawSize>(1.2, 1.2)</customDrawSize>
+					<customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
+
+                    <bodyTypes>
+						<li>Thin</li>
+                        <li>Female</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+					</bodyTypes>
+					<headOffset>(0.0, -0.09)</headOffset>
+
 
                 </alienPartGenerator>
+
+                <disallowedTraits>
+					<li>
+						<defName>Wimp</defName>
+					</li>
+					<li>
+						<defName>Delicate</defName>
+					</li>
+				</disallowedTraits>
+
+                <growthAges MayRequire="Ludeon.RimWorld.Biotech">
+					<li>3</li>
+					<li>6</li>
+					<li>9</li>
+					<li>12</li>
+                    <li>15</li>
+                    <li>18</li>
+				</growthAges>
+
             </generalSettings>
+
+            <graphicPaths>
+				<body>Murellan/Bodies/</body>
+				<head>Murellan/Heads/</head>
+			</graphicPaths>
+            <styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<!-- <hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>RK_Style</li>
+						</styleTagsOverride> -->
+                        <hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+
+            <relationSettings>
+
+			</relationSettings>
+
+            <raceRestriction>
+                <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+                <apparelList>
+                
+                </apparelList>
+                <whiteApparelList>
+                
+                </whiteApparelList>
+                <weaponList>
+                
+                </weaponList>
+
+                <blackEndoCategories MayRequire="Ludeon.RimWorld.Biotech">
+					<li MayRequire="Ludeon.RimWorld.Biotech">Melanin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">BodyType</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Nose</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Voice</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Head</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Jaw</li>
+				</blackEndoCategories>
+                <blackGeneTags MayRequire="Ludeon.RimWorld.Biotech">
+					<li MayRequire="Ludeon.RimWorld.Biotech">EyeColor</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Tail</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">BeardStyle</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Fur</li>
+				</blackGeneTags>
+                <blackGeneList>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+				</blackGeneList>
+				<blackXenotypeList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Hussar</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Sanguophage</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
+				</blackXenotypeList>
+				<whiteXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+					<li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+				</whiteXenotypeList>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+
+            </raceRestriction>
+
+            <thoughtSettings>
+				<cannotReceiveThoughts>
+					<li>EnvironmentDark</li>
+					<li>NeedOutdoors</li>
+				</cannotReceiveThoughts>
+			</thoughtSettings>
+
         </alienRace>
+        
+        <statBases>
+        
+            <MarketValue>2000</MarketValue>
+            <Mass>100</Mass>
+            <MoveSpeed>3.7</MoveSpeed>
+            <Flammability>0.2</Flammability>
+            <ComfyTemperatureMax>31</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-65</ComfyTemperatureMin>
+            <ImmunityGainSpeed>1.45</ImmunityGainSpeed>
+			<CarryingCapacity>120</CarryingCapacity>
+            <PainShockThreshold>0.6</PainShockThreshold>
+            <ToxicEnvironmentResistance>1.45</ToxicEnvironmentResistance>
+            <EatingSpeed>1.1</EatingSpeed>
+            <MeatAmount>35</MeatAmount>
+			<LeatherAmount>30</LeatherAmount>
+
+            <MeleeDodgeChance>0.55</MeleeDodgeChance>
+			<AimingDelayFactor>0.85</AimingDelayFactor>
+            <NegotiationAbility>0.85</NegotiationAbility>
+            <SocialImpact>0.9</SocialImpact>
+
+            <MiningSpeed>0.9</MiningSpeed>
+			<MiningYield>1.05</MiningYield>
+			<PlantWorkSpeed>0.9</PlantWorkSpeed>
+			<HuntingStealth>0.9</HuntingStealth>
+
+            <ConstructionSpeed>0.9</ConstructionSpeed>
+			<ResearchSpeed>0.8</ResearchSpeed>
+
+            <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+
+        </statBases>
+
+        <tools>
+            <li>
+                <label>shell</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>1.2</cooldownTime>
+                <linkedBodyPartsGroup>Shoulders</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Blunt</def>
+                            <amount>20</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+				<label>left fist</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Scratch</def>
+							<amount>7</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Scratch</def>
+							<amount>7</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+        </tools>
+
+        <race>
+            <thinkTreeMain>Humanlike</thinkTreeMain>
+            <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+            <intelligence>Humanlike</intelligence>
+            <bloodDef>Filth_Blood</bloodDef>
+            <renderTree>Humanlike</renderTree>
+            <canBecomeShambler>False</canBecomeShambler>
+
+            <makesFootprints>True</makesFootprints>
+            <lifeExpectancy>200</lifeExpectancy>
+
+            <leatherDef>Leather_Light</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<hasGenders>true</hasGenders>
+
+            <body>Murellan</body>
+
+            <baseBodySize>1.3</baseBodySize>
+			<baseHealthScale>2.5</baseHealthScale>
+
+            <foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>21</gestationPeriodDays>
+
+            <lifeStageAges>
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>4</minAge>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">
+					<def>HumanlikePreTeenager</def>
+					<minAge>8</minAge>
+				</li>
+				<li>
+					<def>HumanlikeTeenager</def>
+					<minAge>12</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
+					<minAge>16</minAge>
+				</li>
+			</lifeStageAges>
+
+            <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>7</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>10</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>7</BasicWorker>
+				<Warden>10</Warden>
+				<Handling>7</Handling>
+				<Cooking>7</Cooking>
+				<Hunting>7</Hunting>
+				<Construction>10</Construction>
+				<Growing>7</Growing>
+				<Mining>7</Mining>
+				<PlantCutting>7</PlantCutting>
+				<Smithing>13</Smithing>
+				<Tailoring>7</Tailoring>
+				<Art>10</Art>
+				<Crafting>7</Crafting>
+				<Hauling>3</Hauling>
+				<Cleaning>3</Cleaning>
+				<Research>13</Research>
+			</lifeStageWorkSettings>
+
+            <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+
+            <specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+
+            <ageGenerationCurve>
+				<points>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(8,5)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(10,10)</li>
+					<!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>
+					<!-- End exclude -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+					<li>(14,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+					<li>(18,50)</li>
+					<li>(23,100)</li>
+					<li>(30,20)</li>
+					<li>(40,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+			</hediffGiverSets>
+        </race>
+
+        <recipes>
+			<li>ExciseCarcinoma</li>
+			<li>AdministerMechSerumHealer</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+		</recipes>
 
     </AlienRace.ThingDef_AlienRace>
 
