@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+        <defName>Alien_Murellan</defName>
+		<label>Murellan</label>
+        <description>Born in the Abyssal Trenches, the Murellans have risen from the depths in pursuit of strength. In their warrior culture, power reigns supreme, and only the worthy survive. The land offers new challenges, new foes, and new heights to reach.</description>
+
+        <!-- <descriptionHyperlinks>
+			<ThingDef>BlueBloodBag</ThingDef>
+		</descriptionHyperlinks> -->
+
+        <alienRace>
+            <generalSettings>
+                <maleGenderProbability>0.1</maleGenderProbability>
+                <humanRecipeImport>true</humanRecipeImport>
+
+                <alienPartGenerator>
+
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,1.0,1.0,1)</only>
+									</li>
+								</options>
+							</first>
+                        </li>
+                        <li>
+                            <name>hair</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <!-- Dark Grey -->
+                                    <li>
+                                        <weight>25</weight>
+                                        <min>(0.2,0.2,0.2)</min>
+                                        <max>(0.35,0.35,0.35)</max>
+                                    </li>
+                                    <!-- Medium Grey -->
+                                    <li>
+                                        <weight>30</weight>
+                                        <min>(0.4,0.4,0.4)</min>
+                                        <max>(0.55,0.55,0.55)</max>
+                                    </li>
+                                    <!-- Light Grey -->
+                                    <li>
+                                        <weight>20</weight>
+                                        <min>(0.6,0.6,0.6)</min>
+                                        <max>(0.75,0.75,0.75)</max>
+                                    </li>
+                                    <!-- White (Rare) -->
+                                    <li>
+                                        <weight>5</weight>
+                                        <min>(0.9,0.9,0.9)</min>
+                                        <max>(1.0,1.0,1.0)</max>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                    </colorChannels>
+
+                    <atlasScale>4</atlasScale>
+					<borderScale>1</borderScale>
+
+                    <headTypes Inherit="False">
+                        
+                    </headTypes>
+
+                </alienPartGenerator>
+            </generalSettings>
+        </alienRace>
+
+    </AlienRace.ThingDef_AlienRace>
+
+</Defs>
