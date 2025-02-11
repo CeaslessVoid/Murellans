@@ -39,7 +39,7 @@
 						<li>Torso</li>
 					</groups>
 				</li>
-                <li>
+                <!-- <li>
 					<def>Neava_M_Torso</def>
 					<customLabel>shell</customLabel>
 					<coverage>0.6</coverage>
@@ -47,7 +47,7 @@
 					<groups>
 						<li>Torso</li>
 					</groups>
-				</li>
+				</li> -->
                 <li>
 					<def>Spine</def>
 					<coverage>0.005</coverage>
@@ -152,7 +152,7 @@
 										</li>
 									</parts>
 								</li>
-                                <li>
+                                <!-- <li>
 									<def>Neava_M_head</def>
 									<customLabel>shell</customLabel>
 									<coverage>0.6</coverage>
@@ -160,7 +160,7 @@
 										<li>UpperHead</li>
                                         <li>FullHead</li>
 									</groups>
-								</li>
+								</li> -->
 								<li>
 									<def>Eye</def>
 									<customLabel>left eye</customLabel>
