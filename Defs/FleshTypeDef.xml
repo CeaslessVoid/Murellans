@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<FleshTypeDef>
+		<defName>Neava_Murellan_Flesh</defName>
+		<corpseCategory>CorpsesAnimal</corpseCategory>
+		<damageEffecter>Damage_HitFlesh</damageEffecter>
+		<isOrganic>true</isOrganic>
+		<genericWounds>
+			<li>
+				<color>(255,255,255)</color>
+				<texture>Moyo/Wound/MoyoWoundA</texture>
+			</li>
+			<li>
+				<color>(255,255,255)</color>
+				<texture>Moyo/Wound/MoyoWoundB</texture>
+			</li>
+			<li>
+				<color>(255,255,255)</color>
+				<texture>Moyo/Wound/MoyoWoundC</texture>
+			</li>
+		</genericWounds>
+		<bandagedWounds>
+			<li>
+				<texture>Things/Pawn/Wounds/BandagedA</texture>
+			</li>
+			<li>
+				<texture>Things/Pawn/Wounds/BandagedB</texture>
+			</li>
+			<li>
+				<texture>Things/Pawn/Wounds/BandagedC</texture>
+			</li>
+		</bandagedWounds>
+	</FleshTypeDef>
+</Defs>

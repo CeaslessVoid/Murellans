@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <BodyPartDef>
+        <defName>Neava_M_Torso</defName>
+        <label>mollusk shell</label>
+        <hitPoints>250</hitPoints>
+        <skinCovered>false</skinCovered>
+        <solid>true</solid>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <alive>false</alive>
+        <bleedRate>0</bleedRate>
+        <canSuggestAmputation>false</canSuggestAmputation>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>Neava_M_head</defName>
+        <label>mollusk shell</label>
+        <hitPoints>175</hitPoints>
+        <skinCovered>false</skinCovered>
+        <solid>true</solid>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <alive>false</alive>
+        <bleedRate>0</bleedRate>
+        <canSuggestAmputation>false</canSuggestAmputation>
+    </BodyPartDef>
+
+</Defs>
