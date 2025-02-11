@@ -8,15 +8,15 @@
 		<genericWounds>
 			<li>
 				<color>(255,255,255)</color>
-				<texture>Moyo/Wound/MoyoWoundA</texture>
+				<texture>Murellan/Wound/MurellanWoundA</texture>
 			</li>
 			<li>
 				<color>(255,255,255)</color>
-				<texture>Moyo/Wound/MoyoWoundB</texture>
+				<texture>Murellan/Wound/MurellanWoundB</texture>
 			</li>
 			<li>
 				<color>(255,255,255)</color>
-				<texture>Moyo/Wound/MoyoWoundC</texture>
+				<texture>Murellan/Wound/MurellanWoundC</texture>
 			</li>
 		</genericWounds>
 		<bandagedWounds>
