@@ -12,7 +12,7 @@
 
         <alienRace>
             <generalSettings>
-                <maleGenderProbability>0.1</maleGenderProbability>
+                <maleGenderProbability>0.0</maleGenderProbability>
                 <humanRecipeImport>true</humanRecipeImport>
 
                 <alienPartGenerator>
@@ -69,9 +69,6 @@
 						<li>Female_AverageNormal</li>
 						<li>Female_AverageWide</li>
 						<li>Female_AveragePointy</li>
-						<li>Male_AverageNormal</li>
-						<li>Male_AverageWide</li>
-						<li>Male_AveragePointy</li>
 					</headTypes>
                     
                     <customDrawSize>(1.2, 1.2)</customDrawSize>
@@ -109,9 +106,10 @@
             </generalSettings>
 
             <graphicPaths>
-				<body>Murellan/Bodies/</body>
-				<head>Murellan/Heads/</head>
+				<body>Things/Murellan/Bodies/</body>
+				<head>Things/Murellan/Heads/</head>
 			</graphicPaths>
+
             <styleSettings>
 				<li>
 					<key>HairDef</key>
@@ -230,7 +228,6 @@
             <ConstructionSpeed>0.9</ConstructionSpeed>
 			<ResearchSpeed>0.8</ResearchSpeed>
 
-            <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
             <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
             <ArmorRating_Sharp>1.20</ArmorRating_Sharp>
 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PawnKindDef Name="NeavaMBasePawnKind" Abstract="True">
+		<combatPower>20</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<race>Alien_Murellan</race>
+		<minGenerationAge>13</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<!-- <defaultFactionType>Rakinia</defaultFactionType> -->
+		<invNutrition>2</invNutrition>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<apparelColor>(255,255,255)</apparelColor>
+		<initialResistanceRange>10~25</initialResistanceRange>
+		<initialWillRange>15~25</initialWillRange>
+	</PawnKindDef>	
+
+    <PawnKindDef ParentName="NeavaMBasePawnKind">
+		<defName>MurellanColonist</defName>
+		<label>murellan colonist</label>
+		<defaultFactionType>PlayerColony</defaultFactionType>		
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>RatkinStory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<!-- <apparelRequired>
+			<li>RK_ApronSkirt</li>
+		</apparelRequired> -->
+		<apparelMoney>
+			<min>120</min>
+			<max>120</max>
+		</apparelMoney>
+		<!-- <apparelTags>
+			<li>RK_Worker</li>
+		</apparelTags> -->
+		<apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
+		<apparelColor>(254,254,254)</apparelColor>
+	</PawnKindDef>
+</Defs>

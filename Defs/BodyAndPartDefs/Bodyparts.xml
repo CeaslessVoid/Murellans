@@ -3,25 +3,23 @@
     <BodyPartDef>
         <defName>Neava_M_Torso</defName>
         <label>mollusk shell</label>
-        <hitPoints>250</hitPoints>
+        <hitPoints>100</hitPoints>
         <skinCovered>false</skinCovered>
         <solid>true</solid>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
         <alive>false</alive>
         <bleedRate>0</bleedRate>
-        <canSuggestAmputation>false</canSuggestAmputation>
     </BodyPartDef>
 
     <BodyPartDef>
         <defName>Neava_M_head</defName>
         <label>mollusk shell</label>
-        <hitPoints>175</hitPoints>
+        <hitPoints>75</hitPoints>
         <skinCovered>false</skinCovered>
         <solid>true</solid>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
         <alive>false</alive>
         <bleedRate>0</bleedRate>
-        <canSuggestAmputation>false</canSuggestAmputation>
     </BodyPartDef>
 
 </Defs>
