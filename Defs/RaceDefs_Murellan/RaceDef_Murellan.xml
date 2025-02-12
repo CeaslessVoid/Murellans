@@ -76,8 +76,8 @@
 
                     <bodyTypes>
                         <li>Thin</li>
-						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
-						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li> -->
+						<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Child</li> -->
 					</bodyTypes>
 					<headOffset>(0.0, -0.09)</headOffset>
 
@@ -303,14 +303,14 @@
 
             <body>Murellan</body>
 
-            <baseBodySize>1.3</baseBodySize>
-			<baseHealthScale>2.5</baseHealthScale>
+            <baseBodySize>1.2</baseBodySize>
+			<baseHealthScale>2.0</baseHealthScale>
 
             <foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>21</gestationPeriodDays>
 
             <lifeStageAges>
-				<li>
+				<!-- <li>
 					<def>HumanlikeBaby</def>
 					<minAge>0</minAge>
 				</li>
@@ -325,10 +325,10 @@
 				<li>
 					<def>HumanlikeTeenager</def>
 					<minAge>12</minAge>
-				</li>
+				</li> -->
 				<li>
 					<def>HumanlikeAdult</def>
-					<minAge>16</minAge>
+					<minAge>0</minAge>
 				</li>
 			</lifeStageAges>
 
