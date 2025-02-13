@@ -12,7 +12,7 @@
 
         <alienRace>
             <generalSettings>
-                <maleGenderProbability>0.0</maleGenderProbability>
+                <maleGenderProbability>0.1</maleGenderProbability>
                 <humanRecipeImport>true</humanRecipeImport>
 
                 <alienPartGenerator>
@@ -79,7 +79,7 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 					</bodyTypes>
-					<headOffset>(0.0, -0.09)</headOffset>
+					<headOffset>(0.0, 0.0)</headOffset>
 
 
                 </alienPartGenerator>
